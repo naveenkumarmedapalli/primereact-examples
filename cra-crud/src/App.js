@@ -29,7 +29,7 @@ function App() {
         inventoryStatus: 'INSTOCK'
     };
 
-    const [products, setProducts] = useState(null);
+    const [products, setProducts] = useState([]);
     const [productDialog, setProductDialog] = useState(false);
     const [deleteProductDialog, setDeleteProductDialog] = useState(false);
     const [deleteProductsDialog, setDeleteProductsDialog] = useState(false);
